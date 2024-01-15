@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "238120144599",
+    "project_id": "fir-meet-test",
+    "storage_bucket": "fir-meet-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238120144599:android:f5107cd8dcbc57a2622a92",
+        "android_client_info": {
+          "package_name": "com.example.flutter_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVXe_TdNAILjxt7eZAjUgOHZTPrdEfO2M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
