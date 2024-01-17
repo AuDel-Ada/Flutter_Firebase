@@ -98,7 +98,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp.router(
-      title: 'Meetup Test',
+      title: 'Want to join ?',
       theme: ThemeData(
         buttonTheme: Theme.of(context)
             .buttonTheme

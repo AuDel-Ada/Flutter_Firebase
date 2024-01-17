@@ -44,6 +44,7 @@ app.*.map.json
 
 # Firebase config
 .firebaserc
+*/firebase_options.dart
 */firebase_app_id_file.json
 
 # Firebase cache

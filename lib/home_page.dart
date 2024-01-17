@@ -15,17 +15,17 @@ class MyHomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text(
-          "** I'll be there ! **",
+          "What's going on ?",
           style: TextStyle(fontWeight: FontWeight.bold),
         ),
         centerTitle: true,
       ),
       body: ListView(
         children: <Widget>[
-          Image.asset('assets/codelab.png'),
+          Image.asset('assets/event.png'),
           const SizedBox(height: 8),
-          const IconAndDetail(Icons.calendar_today, 'Feb 30'),
-          const IconAndDetail(Icons.location_city, 'Tourcoing'),
+          const IconAndDetail(Icons.calendar_today, 'Jan 21'),
+          const IconAndDetail(Icons.location_city, 'Paris'),
           Consumer<ApplicationState>(
             builder: (context, appState, _) => AuthFunc(
                 loggedIn: appState.loggedIn,
@@ -40,8 +40,8 @@ class MyHomePage extends StatelessWidget {
             endIndent: 8,
             color: Colors.grey,
           ),
-          const Header('What will happen ?'),
-          const Paragraph('Coffee & Debug'),
+          const Header('Computer archeology'),
+          const Paragraph('Organised by Electronic Tales community'),
         ],
       ),
     );
